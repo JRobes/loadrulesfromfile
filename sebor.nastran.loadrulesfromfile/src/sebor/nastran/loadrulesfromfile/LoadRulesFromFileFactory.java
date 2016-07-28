@@ -6,8 +6,8 @@ public class LoadRulesFromFileFactory {
 	private static ILoadRulesFromFile loadRulesFromFile;
 	
 	public static IRule[] getInstace(String path){
-		loadRulesFromFile = new LoadRulesFromFileImpl(path);
-		return loadRulesFromFile.loadRulesFromFile();
+		loadRulesFromFile = new LoadRulesFromFileImpl();
+		return loadRulesFromFile.loadRulesFromFile(path);
 	}
 
 }

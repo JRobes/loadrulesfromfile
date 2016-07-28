@@ -3,6 +3,6 @@ package sebor.nastran.loadrulesfromfile;
 import org.eclipse.jface.text.rules.IRule;
 
 public interface ILoadRulesFromFile {
-	public IRule[] loadRulesFromFile();
+	public IRule[] loadRulesFromFile(String theFile);
 
 }

@@ -4,5 +4,7 @@ Bundle-Name: Loadrulesfromfile
 Bundle-SymbolicName: sebor.nastran.loadrulesfromfile
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
-Require-Bundle: org.eclipse.jface.text
+Require-Bundle: org.eclipse.jface.text,
+ org.eclipse.core.runtime
 Export-Package: sebor.nastran.loadrulesfromfile
+Import-Package: org.eclipse.core.runtime
